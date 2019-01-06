@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/calculator.css' %}">
+</head>
+
+<body>
+    <form action="calculate.html" method="get">
+        <table class="tablePosition">
+            <tr>
+                <td colspan="4" style="display: none;">
+                    <input class="calculationArea" type="text" name="forwardshown" value="{{ forward_value }}" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" style="display: none;">
+                    <input class="calculationArea" type="text" name="operationshown" value="{{ operation_value }}" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" style="display: none;">
+                    <input class="calculationArea" type="text" name="currentshown" value="{{ current_value }}" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input class="calculationArea" type="text" disabled="disabled" name="resultshown" value="{{ result_value }}" />
+                </td>
+            </tr>
+            <tr>
+                {% if warning %}
+                    <td colspan="4" style="height: 30px">
+                        Error! You cannot divide by 0!
+                    </td>
+                {% endif %}
+                {% if not warning %}
+                    <td colspan="4" style="height: 30px;"></td>
+                {% endif %}
+            </tr>
+            <tr>
+                <td><button class="digitButton" name="digitvalue" value="7">7</button></td>
+                <td><button class="digitButton" name="digitvalue" value="8">8</button></td>
+                <td><button class="digitButton" name="digitvalue" value="9">9</button></td>
+                <td><button class="otherButton" name="operation" value="+">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="digitButton" name="digitvalue" value="4">4</button></td>
+                <td><button class="digitButton" name="digitvalue" value="5">5</button></td>
+                <td><button class="digitButton" name="digitvalue" value="6">6</button></td>
+                <td><button class="otherButton" name="operation" value="-">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="digitButton" name="digitvalue" value="1">1</button></td>
+                <td><button class="digitButton" name="digitvalue" value="2">2</button></td>
+                <td><button class="digitButton" name="digitvalue" value="3">3</button></td>
+                <td><button class="otherButton" name="operation" value="×">×</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button class="digitButton" name="digitvalue" value="0">0</button></td>
+                <td><button class="otherButton" name="operation" value="=">=</button></td>
+                <td><button class="otherButton" name="operation" value="÷">÷</button></td>
+            </tr>
+        </table>
+        {% csrf_token %}
+    </form>
+
+</body>
+</html>

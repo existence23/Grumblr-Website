@@ -1,0 +1,28 @@
+{% extends "grumblr/initial_base.html" %}
+
+{% block title %}
+    <title>Complete File</title>
+{% endblock %}
+
+{% block slogan %}
+    <p class="findLarger">Complete Your File</p>
+{% endblock %}
+
+{% block input_form %}
+    <form method="post" action="/grumblr/complete-file" enctype="multipart/form-data">
+        <div>profile photo<input type="file" name="avatar"></div>
+        <br>
+        <input type="text" name="age" class="form-control" placeholder="Age" required>
+        <br>
+        <input type="text" name="bio" class="form-control"
+               placeholder="Write a bio of yourself (420 char or less)"
+               style="height: 100px" required>
+        <br>
+        <input type="submit" value="Complete" class="form-control loginButton">
+    {% csrf_token %}
+    </form>
+{% endblock %}
+
+{% block redirect_link %}
+
+{% endblock %}

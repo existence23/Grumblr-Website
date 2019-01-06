@@ -1,0 +1,12 @@
+server {
+  listen 80;
+  server_name 13.59.88.183;
+  location = /favicon.ico {access_log off; log_not_found off;}
+  location /static/ {
+        root /home/ubuntu/kge/homework/6/webapps;
+  }
+  location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/ubuntu/kge/homework/6/webapps/webapps.sock;
+  }
+}

@@ -1,0 +1,89 @@
+{% extends 'grumblr/stream_base.html' %}
+
+{% block linkButton %}
+    <a href="/grumblr/logout" class="form-control loginButton linkButton">Logout</a>
+    <a href="/grumblr/delete-user" class="form-control loginButton linkButton">Delete Account</a>
+    <a href="/grumblr" class="form-control loginButton linkButton">Global Stream</a>
+{% endblock %}
+
+{% block personalInfo %}
+    <h2 class="settings_heading">Account</h2>
+    <div class="settings_group">
+        <div class="group_label">Profile Photo</div>
+        <div class="group_content">
+            {% if user.image %}
+                <div><img id="myImg" src="{{ MEDIA_URL }}{{ user.image }}"
+                     alt="profile-photo" style="width: 200px; height: 200px"></div>
+            {% else %}
+                <div><img id="myImg" src="/static/imgs/default_photo.jpg"
+                          alt="default-profile-photo" style="width: 200px; height: 200px"></div>
+            {% endif %}
+        </div>
+        <div class="group_edit">
+            <input type="button" value="edit" class="form-control loginButton"
+            onclick="popupFunc_photo()">
+        </div>
+    </div>
+    <div class="settings_group">
+        <div class="group_label">FirstName</div>
+        <div class="group_content">
+            <div id="firstname_id">{{ user.first_name }}</div>
+        </div>
+        <div class="group_edit">
+            <input type="button" value="edit" class="form-control loginButton"
+            onclick="popupFunc_firstname()">
+        </div>
+    </div>
+    <div class="settings_group">
+        <div class="group_label">LastName</div>
+        <div class="group_content">
+            <div id="lastname_id">{{ user.last_name }}</div>
+        </div>
+        <div class="group_edit">
+            <input type="button" value="edit" class="form-control loginButton"
+            onclick="popupFunc_lastname()">
+        </div>
+    </div>
+    <div class="settings_group">
+        <div class="group_label">UserName</div>
+        <div class="group_content">
+            <div id="username_id">{{ user.username }}</div>
+        </div>
+        <div class="group_edit">
+            <input type="button" value="edit" class="form-control loginButton"
+            onclick="popupFunc_username()">
+        </div>
+    </div>
+    <div class="settings_group">
+        <div class="group_label">Password</div>
+        <div class="group_content">
+            <div id="password_id">••••••••••</div>
+        </div>
+        <div class="group_edit">
+            <input type="button" value="edit" class="form-control loginButton"
+            onclick="popupFunc_confirmEmail()">
+        </div>
+    </div>
+    <div class="settings_group">
+        <div class="group_label">Age</div>
+        <div class="group_content">
+            <div id="age_id">{% if user.age %}{{ user.age }}{% endif %}</div>
+        </div>
+        <div class="group_edit">
+            <input type="button" value="edit" class="form-control loginButton"
+            onclick="popupFunc_age()">
+        </div>
+    </div>
+    <div class="settings_group">
+        <div class="group_label">Bio</div>
+        <div class="group_content">
+            <div id="bio_id">{% if user.bio %}{{ user.bio }}{% endif %}</div>
+        </div>
+        <div class="group_edit">
+            <input type="button" value="edit" class="form-control loginButton"
+            onclick="popupFunc_bio()">
+        </div>
+    </div>
+
+
+{% endblock %}

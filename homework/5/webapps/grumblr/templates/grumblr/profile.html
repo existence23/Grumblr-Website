@@ -1,0 +1,22 @@
+{% extends 'grumblr/stream_base.html' %}
+
+{% block linkButton %}
+    <a href="/grumblr/logout" class="form-control loginButton linkButton">Logout</a>
+    <a href="/grumblr/delete-user" class="form-control loginButton linkButton">Delete Account</a>
+    <a href="/grumblr" class="form-control loginButton linkButton">Global Stream</a>
+{% endblock %}
+
+{% block personalInfo %}
+    <div class="welcomeWord">
+        {% if single_user %}
+            {{ single_user.first_name }} {{ single_user.last_name }}'s profile
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block scriptSrc %}
+    <script src="../../../static/js/jquery.js" type="text/javascript"></script>
+    <script id="testScript" src="../../../static/js/profile_post.js?" data="{{ user_id }}" type="text/javascript"></script>
+    <script src="../../../static/js/stream_template.js" type="text/javascript"></script>
+{% endblock %}
+

@@ -1,0 +1,13 @@
+{
+  "id":{{comment.id}},
+  "user" : {
+        "user_id" : {{comment.user.id}},
+        "username" : "{{comment.user.username}}",
+        "firstname" : "{{comment.user.first_name}}",
+        "lastname" : "{{comment.user.last_name}}"
+  },
+  "post_id" : "{{comment.post.id}}",
+  "text" : "{{comment.text}}",
+  "time" : "{{comment.time_str}}",
+  "image" : {% if comment.user.image %}"{{ MEDIA_URL }}{{comment.user.image}}"{% else %}"/static/imgs/default_photo.jpg"{% endif %}
+}

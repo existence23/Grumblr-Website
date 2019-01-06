@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8620eca5-024f-492e-81bc-2de363e9649b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../1/src/css/globalStream.css" beforeDir="false" afterPath="$PROJECT_DIR$/../1/src/css/globalStream.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3/webapps/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../3/webapps/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/grumblr/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../4/webapps/grumblr/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/grumblr/migrations/0002_auto_20180918_1647.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/grumblr/migrations/0003_post_creat_time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/actions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/collapse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/inlines.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/prepopulate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/timeparse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4/webapps/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/03 CSS and Bootstrap/learnBootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/03 CSS and Bootstrap/learnBootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/04 Introduction to Django/demo/intro/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/04 Introduction to Django/demo/intro/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/templates/shared-todo-list/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/templates/shared-todo-list/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/shared_todo_list/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/webapps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/webapps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/webapps/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/webapps/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/webapps/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/webapps/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/webapps/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Django models demo/webapps/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/sio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/webapps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/webapps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/webapps/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/webapps/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/webapps/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/Introduction to Django sample solution/webapps/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/05 Django models/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/05 Django models/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../in-class/13 jQuery/exercise_handout_code/sio/static/sio.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../in-class/13 jQuery/exercise_handout_code/sio/static/sio.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/project_proposal$testYotube.coverage" NAME="testYotube Coverage Results" MODIFIED="1539195856766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1805752237">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="70" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="70" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testYoutube.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testYotube.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testYoutube.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/testYotube.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="294" />
+    <option name="y" value="29" />
+    <option name="width" value="1238" />
+    <option name="height" value="697" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project-proposal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-proposal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="testYotube" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project-proposal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testYotube.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.testYotube" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8620eca5-024f-492e-81bc-2de363e9649b" name="Default Changelist" comment="" />
+      <created>1539141660834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539141660834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="294" y="29" width="1238" height="697" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2583612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testYoutube.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testYotube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

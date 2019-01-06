@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stream Base</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <script src="../../../static/js/personalFile.js"></script>
+</head>
+<body>
+
+
+<div class="contentBorder">
+    <div>
+        <b class="grumblrStyle">Grumblr</b>
+        {% block linkButton %}
+            button list
+        {% endblock %}
+    </div>
+    {% block personalInfo %}
+        personal Info
+    {% endblock %}
+    <br>
+    {% block new_post %}
+        new post
+    {% endblock %}
+    {% for post in posts %}
+        <div class="postBackground">
+            <div class="postText">
+                <p class="userNameFont"><a class="linkColor" href="/grumblr/check-profile/{{ post.user.id }}">
+                    {{ post.user.first_name }} {{ post.user.last_name }} ({{ post.user.username }})</a></p>
+                <p>{{ post.text }}</p>
+                <p>{{ post.time_str }}</p>
+                {% block check_delete %}
+                    check delete
+                {% endblock %}
+                {% block check_follow %}
+                    checkFollow
+                {% endblock %}
+            </div>
+            <div class="postPhoto">
+                {% if post.user.image %}
+                    {% if post.user.image == "/static/imgs/default_photo.jpg" %}
+                        <img src="{{ post.user.image }}" alt="profile-photo" style="width: 100px; height: 100px">
+                    {% else %}
+                        <img src="{{ MEDIA_URL }}{{ post.user.image }}" alt="profile-photo" style="width: 100px; height: 100px">
+                    {% endif %}
+                {% else %}
+                    <img src="/static/imgs/default_photo.jpg" alt="profile-photo" style="width: 100px; height: 100px">
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>

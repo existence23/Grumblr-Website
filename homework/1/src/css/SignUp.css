@@ -1,0 +1,23 @@
+.content 
+{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+	width: 260px;
+	padding: 50px 100px 50px 100px;
+	background-color: #008B8B;
+	text-align: left;
+}
+.signupButton
+{
+	font-size: 17px;
+	width: 260px;
+	height: 30px;
+	background-color: #4682B4;
+	border-radius: 10px;
+	border-color: black;
+}

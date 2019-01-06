@@ -1,0 +1,11 @@
+chmod 400 kge_key.pem
+ssh -i kge_key.pem ubuntu@ec2-18-223-29-217.us-east-2.compute.amazonaws.com
+source webapps_venv/bin/activate
+python3 webapps/manage.py runserver 0.0.0.0:8000
+sudo uwsgi --ini /etc/uwsgi/sites/webapps.ini
+sudo tail -F /var/log/nginx/error.log
+sudo systemctl daemon-reload
+sudo systemctl restart nginx
+sudo systemctl restart uwsgi
+sudo systemctl enable nginx
+sudo systemctl enable uwsgi

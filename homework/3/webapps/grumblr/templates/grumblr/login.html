@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grumblr Log In</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+
+<div class="content">
+    <h1 class="grumblrStyle">Grumblr</h1>
+    <p class="findLarger">Find a larger world</p>
+
+    <div>
+    <form method="post" action="/grumblr/login">
+        <input type="text" name="username" class="form-control" placeholder="UserName" required>
+        <br>
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+            {% for error in errors %}
+                {{ error }}
+            {% endfor %}
+        <br>
+        <input type="submit" value="Login" class="form-control loginButton">
+        <input type="hidden" name="next" value="/grumblr/">
+    {% csrf_token %}
+    </form>
+    </div>
+    <br>
+    <p class="registerLink">New to Grumblr? <a href="/grumblr/register" style="color: blue"><u>Sign up now!</u></a></p>
+</div>
+
+</body>
+</html>

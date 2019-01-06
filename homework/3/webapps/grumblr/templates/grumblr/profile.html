@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+
+
+<div class="contentBorder">
+    <div>
+        <b class="grumblrStyle">Grumblr</b>
+        <a href="/grumblr/logout" class="form-control loginButton linkButton">Logout</a>
+        <a href="/grumblr/delete-user" class="form-control loginButton linkButton">Delete Account</a>
+        <a href="/grumblr" class="form-control loginButton linkButton">Global Stream</a>
+    </div>
+    <div class="welcomeWord">
+        {% if single_user %}
+            {{ single_user.first_name }} {{ single_user.last_name }}'s profile
+        {% endif %}
+    </div>
+    <br>
+    {% for post in posts %}
+        <div class="postBackground">
+            <p class="userNameFont"><a class="linkColor" href="/grumblr/check-profile/{{ post.user.id }}">
+                {{ post.user.first_name }} {{ post.user.last_name }} ({{ post.user.username }})</a></p>
+            <p>{{ post.text }}</p>
+            <p>{{ post.time_str }}</p>
+            {% if able_to_delete %}
+                <p><a class="linkColor" href="/grumblr/delete-post/{{ post.id }}">Delete</a></p>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>

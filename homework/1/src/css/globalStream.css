@@ -1,0 +1,27 @@
+.clickButton
+{
+	text-align: center;
+	border-radius: 10px;
+	border-color: black;
+    background-color: #4682B4;
+    width: 130px;
+    height: auto;
+    font-size: 15px;
+    float: right;
+}
+.postBackground
+{
+    height: 150px;
+    background-color: #008B8B;
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    margin-top: 15px;
+}
+.contentBorder
+{
+	border:1px solid #000;
+	padding: 15px;
+	margin: 0 auto;
+	width: 700px;
+}

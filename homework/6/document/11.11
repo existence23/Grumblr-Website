@@ -1,0 +1,7 @@
+CREATE DATABASE grumblr_db
+CREATE USER grumblr_user WITH PASSWORD 'grumblr';
+Username: superuser
+Email address: kge@andrew.cmu.edu
+pass:superuser/super
+
+DELETE FROM grumblr_user WHERE ID>0;

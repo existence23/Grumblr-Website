@@ -1,0 +1,136 @@
+.loginButton
+{
+	text-align: center;
+	color: black;
+	background-color:#4682B4;
+	border-color: black;
+}
+.content
+{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	height: 600px;
+	width: 500px;
+	padding: 100px;
+	background-color: #008B8B;
+	text-align: left;
+}
+.grumblrStyle
+{
+	font-size: 40px;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+.findLarger
+{
+	font-size: 25px;
+	font-family: "Times New Roman";
+	text-decoration: underline;
+	font-weight: bold;
+}
+.registerLink
+{
+	font-size: 18px;
+	font-family: "Times New Roman";
+	color: black;
+
+}
+
+/*class for global stream page*/
+
+.postBackground
+{
+    height: 150px;
+    background-color: #008B8B;
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    margin-top: 15px;
+}
+.postText
+{
+	display: table-cell;
+	width: 450px;
+	top: 0px;
+	position: absolute;
+	top: 10px;
+}
+.postPhoto
+{
+	margin-top: 0;
+	display: table-cell;
+	position: absolute;
+	right: 20px;
+}
+.postSection
+{
+	width: 550px;
+	background-color: white;
+}
+.contentBorder
+{
+	border:1px solid #000;
+	padding: 15px;
+	margin: 0 auto;
+	width: 700px;
+}
+.userNameFont
+{
+	font-size: 23px;
+	font-family: "Times New Roman";
+	color: midnightblue;
+}
+.linkColor
+{
+	color: midnightblue;
+}
+.linkButton
+{
+	font-family: "Times New Roman";
+	float: right;
+	width: 130px;
+	height: auto;
+}
+.welcomeWord
+{
+	font-family: "Times New Roman";
+	font-size: 20px;
+}
+.settings_heading
+{
+	font-family: "Times New Roman";
+	border-bottom: 2px solid #e5e5e5;
+	color: #444444;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.settings_group
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	vertical-align: top;
+	border-bottom: 2px solid #e5e5e5;
+}
+.group_label{
+	display: table-cell;
+	font-weight: bold;
+	width: 145px;
+}
+.group_content
+{
+	display: table-cell;
+	width: 400px;
+}
+.group_edit
+{
+	display: table-cell;
+}

@@ -1,0 +1,21 @@
+{% extends "grumblr/modifyPersonalFile/modifyBase.html" %}
+
+{% block title %}
+    <title>Modify UserName</title>
+{% endblock %}
+
+{% block modifyHeading %}
+    <h1>Set New UserName</h1>
+{% endblock %}
+
+{% block modifyForm %}
+    <form method="post">
+        {% for field in modify_username_form.visible_fields %}
+            <td>{{ field }}</td>
+            {% if field.errors %}{{ field.errors }}{% endif %}
+            <br>
+        {% endfor %}
+        <input type="submit" value="Save">
+        {% csrf_token %}
+    </form>
+{% endblock %}

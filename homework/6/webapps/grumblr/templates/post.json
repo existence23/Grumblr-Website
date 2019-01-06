@@ -1,0 +1,13 @@
+{
+  "id" : {{post.id}},
+  "user" : {
+        "user_id" : {{post.user.id}},
+        "username" : "{{post.user.username}}",
+        "firstname" : "{{post.user.first_name}}",
+        "lastname" : "{{post.user.last_name}}"
+  },
+  "text" : "{{post.text}}",
+  "time" : "{{post.time_str}}",
+  "deleted":{{post.deleted|lower}},
+  "image" : {% if post.user.image %}"{{ MEDIA_URL }}{{post.user.image}}"{% else %}"/static/imgs/default_photo.jpg"{% endif %}
+}

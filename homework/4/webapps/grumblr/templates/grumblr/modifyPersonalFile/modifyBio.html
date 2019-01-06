@@ -1,0 +1,17 @@
+{% extends "grumblr/modifyPersonalFile/modifyBase.html" %}
+
+{% block title %}
+    <title>Modify Bio</title>
+{% endblock %}
+
+{% block modifyHeading %}
+    <h1>Set New Bio</h1>
+{% endblock %}
+
+{% block modifyForm %}
+    <form method="post">
+        <input type="text" name="bio" required maxlength="420" style="height: 50px; width: 200px">
+        <input type="submit" value="Save">
+        {% csrf_token %}
+    </form>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "grumblr/initial_base.html" %}
+
+{% block title %}
+    <title>Grumblr Login</title>
+{% endblock %}
+
+{% block slogan %}
+    <p class="findLarger">Find a larger world</p>
+{% endblock %}
+
+{% block input_form %}
+    <form method="post" action="/grumblr/login">
+    <tr>
+        {% for field in form.visible_fields %}
+            <td>{{ field }}</td>
+            <br>
+        {% endfor %}
+    <td>
+        {{ form.non_field_errors }}
+    </td>
+
+    </tr>
+        <input type="submit" value="Login" class="form-control loginButton">
+        <input type="hidden" name="next" value="/grumblr/">
+    {% csrf_token %}
+    </form>
+{% endblock %}
+
+{% block redirect_link %}
+    <p class="registerLink">New to Grumblr? <a href="/grumblr/register" style="color: blue"><u>Sign up now!</u></a></p>
+{% endblock %}
+

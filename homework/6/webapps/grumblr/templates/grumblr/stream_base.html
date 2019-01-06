@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stream Base</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    <link rel="stylesheet" href="{% static 'css/post.css' %}">
+    <script src="../../../static/js/personalFile.js"></script>
+</head>
+<body>
+
+
+<div class="contentBorder">
+    <div>
+        <b class="grumblrStyle">Grumblr</b>
+        {% block linkButton %}
+            button list
+        {% endblock %}
+    </div>
+    {% block personalInfo %}{% endblock %}
+    <br>
+    {% block new_post %}{% endblock %}
+
+    {% block postContent %}
+        <div id="post-list"></div>
+    {% endblock %}
+
+</div>
+
+{% block scriptSrc %}
+{% endblock %}
+</body>
+</html>

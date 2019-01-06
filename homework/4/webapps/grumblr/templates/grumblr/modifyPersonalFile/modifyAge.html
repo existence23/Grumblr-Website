@@ -1,0 +1,17 @@
+{% extends "grumblr/modifyPersonalFile/modifyBase.html" %}
+
+{% block title %}
+    <title>Modify Age</title>
+{% endblock %}
+
+{% block modifyHeading %}
+    <h1>Set New Age</h1>
+{% endblock %}
+
+{% block modifyForm %}
+    <form method="post">
+        <input type="text" name="age" required>
+        <input type="submit" value="Save">
+        {% csrf_token %}
+    </form>
+{% endblock %}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <style>
+        a.test {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://jquery.com/">jQuery</a>
+    <a href="http://jquery.com/">jQuery2</a>
+    <script src="jquery.js"></script>
+    <script>
+        window.onload = function() {
+            alert( "welcome" );
+        };
+        $( document ).ready(function() {
+            // $( "a" ).click(function( event ) {
+            //     alert( "Thanks for visiting!" );
+            //
+            // });
+            console.log("ready!");
+            // $( "a" ).click(function( event ) {
+            //
+            //     alert( "As you can see, the link no longer took you to jquery.com" );
+            //
+            //     event.preventDefault();
+            //
+            // });
+        });
+        $( "a" ).click(function( event ) {
+
+            event.preventDefault();
+
+            $( this ).hide( "slow" );
+
+        });
+        $( "a" ).addClass( "test" );
+        $( "a" ).removeClass( "test" );
+    // Your code goes here.
+
+    </script>
+</body>
+</html>

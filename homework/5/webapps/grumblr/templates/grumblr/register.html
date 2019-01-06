@@ -1,0 +1,49 @@
+{% extends "grumblr/initial_base.html" %}
+
+{% block title %}
+    <title>Grumblr Register</title>
+{% endblock %}
+
+{% block slogan %}
+    <p class="findLarger">Join Us Today</p>
+{% endblock %}
+
+{% block input_form %}
+    <form method="post" action="register">
+    <table>
+        <tr>
+            <td>
+                {% for field in form.visible_fields %}
+                    {% if field.name == "firstname" %}{{ field }}{% endif %}
+                {% endfor %}
+            </td>
+            <td>
+                {% for field in form.visible_fields %}
+                    {% if field.name == "lastname" %}{{ field }}{% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
+    <br>
+    {% for field in form.visible_fields %}
+        {% if field.name != "firstname" and field.name != "lastname"%}
+            {{ field }}
+            {% if field.errors %}
+                {{ field.errors }}
+            {% else %}
+                <br>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {{ form.non_field_errors }}
+
+    <input type="submit" value="Register" class="form-control loginButton">
+    <input type="hidden" name="next" value="/grumblr/">
+    {% csrf_token %}
+    </form>
+{% endblock %}
+
+{% block redirect_link %}
+    <p class="registerLink">Already have an account? <a href="/grumblr/login" style="color: blue"><u>Log In!</u></a></p>
+{% endblock %}

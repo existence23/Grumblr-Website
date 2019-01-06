@@ -1,0 +1,25 @@
+{% extends 'grumblr/stream_base.html' %}
+
+{% block linkButton %}
+    <a href="/grumblr/logout" class="form-control loginButton linkButton">Logout</a>
+    <a href="/grumblr/personal-info" class="form-control loginButton linkButton">Personal Info</a>
+    {% if follower_page %}
+        <a href="/grumblr" class="form-control loginButton linkButton">Global Stream</a>
+    {% else %}
+        <a href="/grumblr/follower-stream" class="form-control loginButton linkButton">Follower Stream</a>
+    {% endif %}
+
+{% endblock %}
+
+{% block new_post %}
+        <input id="post-field" type="text" placeholder="New Post Start From Here! (42 Characters or less)"
+        class="postBackground postSection">
+        <button id="add-btn" type="button" style="height: 150px; width: 110px">New Post</button></p>
+{% endblock %}
+
+{% block scriptSrc %}
+    <script src="../../../static/js/jquery.js" type="text/javascript"></script>
+    <script src="../../../static/js/post.js" type="text/javascript"></script>
+    <script src="../../../static/js/stream_template.js" type="text/javascript"></script>
+{% endblock %}
+

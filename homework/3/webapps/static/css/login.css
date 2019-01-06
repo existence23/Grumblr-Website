@@ -1,0 +1,87 @@
+.loginButton
+{
+	text-align: center;
+	color: black;
+	background-color:#4682B4;
+	border-color: black;
+}
+.content
+{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	height: 600px;
+	width: 500px;
+	padding: 100px;
+	background-color: #008B8B;
+	text-align: left;
+}
+.grumblrStyle
+{
+	font-size: 40px;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+.findLarger
+{
+	font-size: 25px;
+	font-family: "Times New Roman";
+	text-decoration: underline;
+	font-weight: bold;
+}
+.registerLink
+{
+	font-size: 18px;
+	font-family: "Times New Roman";
+	color: black;
+
+}
+
+/*class for global stream page*/
+
+.postBackground
+{
+    height: 150px;
+    background-color: #008B8B;
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    margin-top: 15px;
+}
+.postSection
+{
+	width: 550px;
+	background-color: white;
+}
+.contentBorder
+{
+	border:1px solid #000;
+	padding: 15px;
+	margin: 0 auto;
+	width: 700px;
+}
+.userNameFont
+{
+	font-size: 23px;
+	font-family: "Times New Roman";
+	color: midnightblue;
+}
+.linkColor
+{
+	color: midnightblue;
+}
+.linkButton
+{
+	font-family: "Times New Roman";
+	float: right;
+	width: 130px;
+	height: auto;
+}
+.welcomeWord
+{
+	font-family: "Times New Roman";
+	font-size: 20px;
+}

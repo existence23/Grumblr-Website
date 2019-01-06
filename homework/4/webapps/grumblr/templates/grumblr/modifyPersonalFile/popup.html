@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Response</title>
+</head>
+<body>
+
+<script>
+    {% if firstname %}
+        (function (firstname) {
+            window.opener.callback_firstname(firstname)
+            window.close()
+        })("{{ firstname }}")
+    {% endif %}
+
+    {% if lastname %}
+        (function (lastname) {
+            window.opener.callback_lastname(lastname)
+            window.close()
+        })("{{ lastname }}")
+    {% endif %}
+
+    {% if username %}
+        (function (username) {
+            window.opener.callback_username(username)
+            window.close()
+        })("{{ username }}")
+    {% endif %}
+
+    {% if password %}
+        (function () {
+            window.close()
+        })()
+    {% endif %}
+
+    {% if age %}
+        (function (age) {
+            window.opener.callback_age(age)
+            window.close()
+        })("{{ age }}")
+    {% endif %}
+
+    {% if avatar %}
+        (function (avatar) {
+            window.opener.callback_photo(avatar)
+            window.close()
+        })("{{ avatar }}")
+    {% endif %}
+
+    {% if bio %}
+        (function (bio) {
+            window.opener.callback_bio(bio)
+            window.close()
+        })("{{ bio }}")
+    {% endif %}
+
+</script>
+
+</body>
+</html>

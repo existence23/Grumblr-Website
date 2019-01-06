@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grumblr Global Stream</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+
+
+<div class="contentBorder">
+    <div>
+        <b class="grumblrStyle">Grumblr</b>
+        <a href="/grumblr/logout" class="form-control loginButton linkButton">Logout</a>
+        <a href="/grumblr/delete-user" class="form-control loginButton linkButton">Delete Account</a>
+    </div>
+    <br>
+    <form action="/grumblr/add-post" method="post">
+        <input type="text" name="new_post" class="postBackground postSection"
+               maxlength="42" placeholder="New Post Start From Here! (42 Characters or less)">
+        <input type="submit" value="New Post" style="height: 150px; width: 110px">
+        {% csrf_token %}
+    </form>
+    {% for post in posts %}
+        <div class="postBackground">
+            <p class="userNameFont">
+                <a class="linkColor" href="/grumblr/check-profile/{{ post.user.id }}">
+                    {{ post.user.first_name }} {{ post.user.last_name }} ({{ post.user.username }})
+                </a>
+            </p>
+            <p>{{ post.text }}</p>
+            <p>{{ post.time_str }}</p>
+        </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>

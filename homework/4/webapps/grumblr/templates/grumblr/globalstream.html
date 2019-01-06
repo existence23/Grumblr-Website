@@ -1,0 +1,32 @@
+{% extends 'grumblr/stream_base.html' %}
+
+{% block linkButton %}
+    <a href="/grumblr/logout" class="form-control loginButton linkButton">Logout</a>
+{#    <a href="/grumblr/delete-user" class="form-control loginButton linkButton">Delete Account</a>#}
+    <a href="/grumblr/personal-info" class="form-control loginButton linkButton">Personal Info</a>
+    {% if follower_page %}
+        <a href="/grumblr" class="form-control loginButton linkButton">Global Stream</a>
+    {% else %}
+        <a href="/grumblr/follower-stream" class="form-control loginButton linkButton">Follower Stream</a>
+    {% endif %}
+
+{% endblock %}
+
+{% block personalInfo %}{% endblock %}
+
+{% block new_post %}
+    <form action="/grumblr/add-post" method="post">
+        {% for field in form.visible_fields %}{{ field }}{% endfor %}
+        <input type="submit" value="New Post" style="height: 150px; width: 110px">
+        {% csrf_token %}
+    </form>
+{% endblock %}
+
+{% block check_delete %}{% endblock %}
+{% block check_follow %}
+    {% if post.user.username != current_user.username %}
+        <a class="linkColor" href="/grumblr/follow/{{ post.id }}">Follow</a>
+        <a class="linkColor" href="/grumblr/unfollow/{{ post.id }}">Unfollow</a>
+    {% endif %}
+{% endblock %}
+

@@ -1,0 +1,30 @@
+.singleComment
+{
+    width: auto;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: azure;
+}
+.commentPic
+{
+    margin: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    float: left;
+}
+.commentUser
+{
+    font-weight: bold;
+    color: #2e6da4;
+}
+.commentText
+{
+    padding: 8px;
+}
+.commentTime
+{
+    float: right;
+    font-size: 10px;
+    margin-top: 5px;
+}

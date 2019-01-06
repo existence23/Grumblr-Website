@@ -1,0 +1,22 @@
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgres start
+
+  /usr/local/Cellar/postgresql/10.5
+
+  postgres: 
+  	user: webapps
+  	password: webapps123
+
+  python manage.py makemigrations web
+  python manage.py makemigrations auth
+python manage.py migrate
+
+superuser:
+Username:kge
+Email address: rachel.gk23@gmail.com
+password: kge123
+
+SMTP Username:
+AKIAJ2FAJP2YPNXLXA7Q
+SMTP Password:
+AqXi/DHVw0moVC3OovrsrVXzEQCdj2i7N+dPyCm4MxpL

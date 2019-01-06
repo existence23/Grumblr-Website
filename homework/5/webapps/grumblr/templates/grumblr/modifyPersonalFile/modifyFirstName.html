@@ -1,0 +1,17 @@
+{% extends "grumblr/modifyPersonalFile/modifyBase.html" %}
+
+{% block title %}
+    <title>Modify First Name</title>
+{% endblock %}
+
+{% block modifyHeading %}
+    <h1>Set New First Name</h1>
+{% endblock %}
+
+{% block modifyForm %}
+    <form method="post">
+        {{ modify_firstname_form }}
+        <input type="submit" value="Save">
+        {% csrf_token %}
+    </form>
+{% endblock %}

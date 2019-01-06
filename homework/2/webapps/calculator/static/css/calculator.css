@@ -1,0 +1,49 @@
+.digitButton
+{
+	text-align: center;
+	font-size: 20px;
+	width: 80px;
+	height: 64px;
+	border-radius: 20px;
+	border-color: black;
+	background-color: #F5F5DC;
+}
+.digitButton:hover
+{
+	background-color: #7FFFD4;
+}
+.otherButton
+{
+	text-align: center;
+	font-size: 20px;
+	width: 80px;
+	height: 64px;
+	border-radius: 20px;
+	border-color: black;
+	background-color: #FFE4C4;
+}
+.otherButton:hover
+{
+	background-color: #7FFFD4;
+}
+.calculationArea
+{
+	text-align: right;
+	width: 320px;
+	height: 64px;
+	background-color: #F5F5DC;
+	border-color: black;
+	font-size: 35px;
+}
+.tablePosition
+{
+	margin: auto;
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	width: 335px;
+	height: 400px;
+}
+

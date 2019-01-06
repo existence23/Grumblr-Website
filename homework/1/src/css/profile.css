@@ -1,0 +1,39 @@
+#clickButton
+{
+	text-align: center;
+	border-radius: 10px;
+	border-color: black;
+    background-color: #4682B4;
+    width: 120px;
+    height: auto;
+    font-size: 15px;
+    float: right;
+}
+.contentBorder
+{
+	border:1px solid #000;
+	padding: 15px;
+	margin: 0 auto;
+	width: 700px;
+}
+#header {
+    padding:5px;
+}
+#userFile {
+	border:1px solid #000;
+	width: 150px;
+    float:left;
+    padding:5px;	      
+}
+#section
+{
+	margin-left: 15px;
+	background-color: #008B8B;
+    width:500px;
+    height: 130px;
+    padding:10px; 
+}
+#footer 
+{
+    clear:both;
+}
